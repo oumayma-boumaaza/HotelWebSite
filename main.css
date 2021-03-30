@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css?family=Oxanium&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    top: 0;
+    width: 100vw;
+    position: fixed;
+    font-family: 'Dancing Script', cursive;
+    height: 100px;
+    background-color: #632d6b;
+    background-attachment: fixed;
+}
+
+#logo {
+    margin: 0;
+    float: left;
+    height: 100px;
+    width: auto;
+}
+
+h1.name {
+    padding: 31px 0px;
+    color: white;
+    float: left;
+    margin-left: -10px;
+}
+
+nav ul li {
+    width: 150px;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 10px;
+    float: right;
+    padding: 20px 10px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+nav ul li:hover {
+    background-color: rgb(37, 3, 36);
+}
+
+a:link,
+a:visited {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 16px;
+    font-family: britannic;
+}
+
+ul {
+    margin-right: 50px;
+    list-style: none;
+}
+
+.background {
+    z-index: -1;
+    margin-top: 75px;
+    background-image: url(img/bachimg.jpg);
+    background: linear gradeint();
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: fixed;
+    width: 100vw;
+    height: 90vh;
+}
+
+q {
+    font-size: 36px;
+    font-family: italic;
+    display: block;
+    padding: 59px 57px;
+    text-align: justify;
+    width: 750px;
+    float: right;
+}
+
+article {
+    border: 1px solid rgb(37, 3, 36);
+    background-color: #632d6b;
+    width: 900px;
+    margin: 40px auto;
+    padding: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: 'Oxanium', ;
+}
+
+#reserver {
+    left: 10px;
+    position: relative !important;
+    border-radius: 4px !important;
+    background: linear-gradient(to right, #fe8b37, #acccce) !important;
+    border: none !important;
+    color: rgb(7, 7, 7);
+    text-transform: uppercase !important;
+    font-size: 22px;
+    padding: 15px 0px;
+    width: 200px;
+    transition: all 0.4s;
+    cursor: pointer;
+    margin: 0px;
+    top: 20px;
+}
+
+#rs:hover::after {
+    content: ' \00bb';
+}
+
+.H1 {
+    float: right;
+}
+
+.img1 {
+    float: left;
+    height: 150px;
+    width: auto;
+    margin-right: 30px;
+}
+
+section#add {
+    height: 100vh;
+    width: 40px;
+}
+
+.H2 {
+    float: right;
+}
+
+.img2 {
+    float: left;
+    height: 120px;
+    width: auto;
+    margin-right: 30px;
+}
+
+.H3 {
+    float: left;
+}
+
+.img3 {
+    float: right;
+    height: 150px;
+    width: auto;
+    margin-right: auto;
+    margin-top: -10px;
+}
+
+.H4 {
+    float: left;
+}
+
+.img4 {
+    float: right;
+    height: 130px;
+    width: auto;
+    margin-right: -30px;
+    margin-top: -20px;
+}
+
+footer {
+    bottom: -1px;
+    font-size: small;
+    text-align: center;
+    color: white;
+    background-color: black;
+    clear: both;
+    position: fixed;
+    width: 100%;
+    display: block;
+}
+
+
+/* unvisited link */
+
+a:link,
+a:visited {
+    color: black;
+}
